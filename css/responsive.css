@@ -1,10 +1,16 @@
 @media screen and (max-width:600px) {
 
+    .navbar,
+    .nav-menu ul {
+        flex-direction: column;
+    }
+
+    .nav-menu ul {
+        padding: 30px;
+    }
+
     .banner {
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 700px;
-        margin-bottom: 0px;
     }
 
     .banner-content h1 {
@@ -38,4 +44,87 @@
         margin-left: 0px;
         margin-top: 10px;
     }
+
+    .popular-tour {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .img-card-row,
+    .choose-card-content,
+    .newsletter {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .popular-tour img {
+        width: 100%;
+    }
+
+    .maldives-heading {
+        right: 33%;
+        top: 19%;
+    }
+
+    .indonesia-heading {
+        left: 35%;
+        top: 71%;
+    }
+
+    .srilanka-heading {
+        left: 40%;
+        top: 15%;
+    }
+
+    .america-heading {
+        left: 25%;
+    }
+
+    .kashmir-heading {
+        left: 36%;
+        top: 76%;
+    }
+
+    .bangladesh-heading {
+        top: 23%;
+        right: 27%;
+    }
+
+    .bandarban-heading {
+        top: 75%;
+        left: 30%;
+    }
+
+    .price-card {
+        width: 78%;
+    }
+
+    .newsletter-img img {
+        width: 100%;
+    }
+
+    .newsletter-img-discount {
+        width: 44%;
+        padding: 15px 20px;
+        top: 50%;
+    }
+
+    .facilities-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0px;
+        padding: 20px;
+    }
+
+    .facilities-heading {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .facilities-heading p {
+        padding: 20px 0px;
+    }
+
 }

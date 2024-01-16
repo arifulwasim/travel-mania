@@ -13,8 +13,6 @@
     margin: 0 auto;
 }
 
-
-
 /* header styles */
 
 .navbar {
@@ -43,7 +41,6 @@
     color: #FF5400;
 }
 
-
 .nav-menu ul {
     display: flex;
 }
@@ -65,13 +62,6 @@
     color: #FF5400;
 }
 
-.icons {
-    font-size: 2.5rem;
-    position: absolute;
-    right: 10%;
-    cursor: pointer;
-    display: none;
-}
 
 /* banner styles */
 
@@ -97,11 +87,13 @@
 }
 
 .banner-content p {
-    color: #b6b3b3;
+    color: #ddd7d7;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     padding: 20px 0px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .banner-btn {
@@ -118,4 +110,338 @@
     border: none;
     border-radius: 15px;
     margin-left: 20px;
+}
+
+.find-btn {
+    background: #FF5400;
+    color: white;
+}
+
+/* Our Popular Tours styles */
+
+.popular-tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 0px;
+}
+
+.popular-tour-content h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.popular-tour-content p,
+li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0px;
+}
+
+.popular-tour-content li {
+    padding: 5px 20px;
+}
+
+.btn {
+    background: #FF5400;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Choose Your Destination */
+.destination {
+    padding: 80px 0px;
+}
+
+.destination-heading {
+    text-align: center;
+}
+
+.destination-heading h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.destination-heading p {
+    color: #b6b3b3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.img-card-row h3 {
+    position: absolute;
+    color: white;
+    z-index: 5;
+    font-size: 36px;
+}
+
+.maldives-heading {
+    top: 43%;
+    right: 69%;
+}
+
+.indonesia-heading {
+    top: 43%;
+    left: 69%;
+}
+
+.srilanka-heading {
+    top: 43%;
+    left: 10%;
+}
+
+.america-heading {
+    top: 43%;
+    left: 46%;
+}
+
+.kashmir-heading {
+    top: 43%;
+    left: 84%;
+}
+
+.bangladesh-heading {
+    top: 43%;
+    right: 69%;
+}
+
+.bandarban-heading {
+    top: 43%;
+    left: 69%;
+}
+
+.destination-imgs .img-card-row {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Why Choose Us */
+
+.choose {
+    padding: 80px 0px;
+}
+
+.choose-heading {
+    text-align: center;
+}
+
+.choose-heading h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.choose-heading p {
+    color: #b6b3b3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.choose-card-content {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.hotel-card,
+.service-card,
+.price-card {
+    padding: 30px;
+}
+
+.choose-card-content h3,
+.price-card h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 20px 0px;
+}
+
+.choose-card-content p,
+.price-card p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.hotel-card,
+.price-card {
+    border: 2px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service-card {
+    border: 2px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price-card {
+    width: 48%;
+    margin: 30px auto;
+}
+
+/* newsletter styles  */
+.newsletter {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.newsletter-form {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 50px 30px;
+}
+
+.newsletter-form h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+hr {
+    margin: 30px 0px;
+}
+
+.form .form-control {
+    width: 84%;
+    padding: 15px 30px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    margin: 10px 0px;
+    border: none;
+}
+
+.form-btn {
+    background-color: #FF5400;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.newsletter-img-discount {
+    background-color: #FF5400;
+    width: 35%;
+    text-align: center;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 8px;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 62%;
+    right: 5px;
+}
+
+.newsletter-img {
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0px;
+    background: #F3F3F3;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    padding-right: 15px;
+}
+
+.footer-logo h2 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.footer-logo span {
+    color: #FF5400;
+}
+
+footer p {
+    padding: 20px 0px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-icons .bx {
+    font-size: 25px;
+    padding: 20px 15px;
+}
+
+.facilities-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.facilities-heading h2,
+.facilities-card h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.facilities-heading,
+.facilities-card p {
+    color: #b6b3b3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+
+.facilities-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.facilities-card h2 {
+    font-size: 30px;
+}
+
+.facilities-card p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 90%;
 }
